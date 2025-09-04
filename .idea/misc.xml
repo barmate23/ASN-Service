@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../configurationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../dockservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../emailservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../gatereceiptservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../gatewayservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../loginservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../ppeservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../qcservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../registryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../storeservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../../Stock Management Projects/GIT/asnService/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+</project>

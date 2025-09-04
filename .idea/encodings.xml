@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../configurationservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../configurationservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dockservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../dockservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../emailservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../emailservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gatereceiptservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gatereceiptservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gatewayservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gatewayservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../loginservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../loginservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ppeservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ppeservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../qcservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../qcservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../registryservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../registryservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../storeservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../storeservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Stock Management Projects/GIT/asnService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../Stock Management Projects/GIT/asnService/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
