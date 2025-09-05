@@ -1,13 +1,29 @@
-FROM openjdk:17
+# syntax=docker/dockerfile:1
 
-# Set the working directory in the container
+# ======================
+# Build stage
+# ======================
+FROM maven:3.8.7-eclipse-temurin-17 AS build
 WORKDIR /app
 
-# Copy the packaged JAR file into the container at /app
-COPY target/asnservice.jar /app/asnservice.jar
+# First copy pom.xml and download dependencies (better cache)
+COPY pom.xml .
+RUN mvn dependency:go-offline
 
-# Expose the port the application runs on
-EXPOSE 8072
+# Copy the source code
+COPY src src
 
-# Run the JAR file when the container launches
-CMD ["java", "-jar", "asnservice.jar"]
+# Build the application (skip tests for faster builds)
+RUN mvn clean package -DskipTests
+
+# ======================
+# Run stage
+# ======================
+FROM openjdk:17-jdk-slim
+WORKDIR /app
+
+# Copy only the built jar from build stage
+COPY --from=build /app/target/*.jar app.jar
+
+EXPOSE 8088
+ENTRYPOINT ["java", "-jar", "app.jar"]
